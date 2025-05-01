@@ -39,3 +39,9 @@ TEXTIO BOOTUP DONE
 Using defer you only have to write this message once.
 
 defer fmt.Println("TEXTIO BOOTUP DONE") */
+
+// Anonymous Functions:
+newX, newY, newZ = conversions(func(a int) int {
+	return a + a
+}, 1, 2, 3)
+// newX is 2, newY is 4, newZ is 6
