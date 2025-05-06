@@ -1,7 +1,7 @@
 package main
 
-/* Mutexes:
-Mutex is short for mutual exclusion, 
+// Mutexes:
+/* Mutex is short for mutual exclusion, 
 and the conventional name for the data structure that provides it is "mutex", 
 often abbreviated to "mu".
 
